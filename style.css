@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ------------header kısmı------------ */
+header {
+    height: 200px;
+    background-color: black; 
+    display: flex;
+    background-image: url("./konser.png");
+    border-bottom: 3px solid gold;
+/* 
+    ortalamak için
+    margin:auto;
+    align-items: center;
+   
+    justify-content: center; */
+}
+
+.dbtn{
+    padding-left: 35%;
+}
+
+.btn{
+    margin-top: 50px;
+    height: 100px;
+    width: 300px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color:  gold;
+    background-color: darkred;
+    
+}
+
+nav{
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid gold;
+}
+
+nav .sosyal ul li:first-child{
+    color: blue;
+}
+
+nav .sosyal ul{
+    
+    padding: 75px 300px;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+}
+
+nav .sosyal ul li{
+    padding: 15px;
+    height: 50px;
+    background-color: wheat;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+.sosyalUst:hover{
+    font-size: 40px;
+}
+
+.sosyalTik:active{
+    color: white;
+}
+
+main div{
+    height: 720px;
+    background-color: black;
+    border: 1px solid gold;
+}
+
+.acikla{
+    height: auto;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 75px;
+}
+
+.rsm{
+    border-radius: 5px;
+    align-items: center;
+    height: 715px;
+    padding-left: 3%;
+}
